@@ -1,0 +1,50 @@
+<!--
+table{
+font-size:12px;
+}
+/*
+BODY {
+	FONT-SIZE: 12px;
+	margin-left: 0px;
+	margin-right: 0px;
+}*/
+/*A标签有四种状态：
+visited：选择器设置访问过的页面链接的样式
+hover：选择器当有鼠标悬停在其上的链接样式
+active：选择器设置当你点击链接时的样式
+link：未访问前的样式
+*/
+A {
+	TEXT-DECORATION: none;
+	COLOR: #1E5494; font-weight:bold;
+}
+A:link {
+	COLOR: #1E5494; font-weight:bold;
+}
+A:visited {
+	COLOR: #1E5494
+}
+A:hover {
+	COLOR: #1E5494
+}
+A:active {
+	COLOR: #1E5494
+}
+.topbar {background:url(/Images/top_tt_bg.gif) no-repeat;
+	COLOR: #1E5494
+}
+.topbar A:link {
+	COLOR: #1E5494
+}
+.topbar A:visited {
+	COLOR: #1E5494
+}
+.topbar A:hover {
+	
+	 COLOR: #8B0000; TEXT-DECORATION: none
+}
+
+.STYLE2 {color: #111111; }
+.STYLE3 {color: #993399;}
+.STYLE4 {color: #FFFFFF}
+-->
